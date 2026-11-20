@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/deusexi-banner.svg" alt="DEUSEXI — AMOUSSA Soultone · Backend, IA/RAG et automatisation · Bénin" width="100%" />
+<img src="assets/deusexi-banner.svg?v=build-1" alt="DEUSEXI — AMOUSSA Soultone · Backend, IA/RAG et automatisation · Bénin" width="100%" />
 
 # Soultone, alias Deusexi <img src="assets/icons/hand.svg" width="28" height="28" alt="" />
 
