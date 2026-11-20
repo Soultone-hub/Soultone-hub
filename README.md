@@ -1,57 +1,105 @@
-<p align="center">
-  <img src="assets/deusexi-banner.svg" alt="DEUSEXI — AMOUSSA Soultone · Backend, IA/RAG et automatisation · Bénin" width="100%" />
-</p>
+<div align="center">
+
+<img src="assets/deusexi-banner.svg" alt="DEUSEXI — AMOUSSA Soultone · Backend, IA/RAG et automatisation · Bénin" width="100%" />
+
+# Soultone, alias Deusexi 👋
+
+**Technicien en conception logicielle** · Bénin 🇧🇯
+
+Je construis des APIs, des assistants IA et des outils qui automatisent le travail répétitif.<br/>
+J’aime partir d’un besoin concret et en faire un outil qu’on peut utiliser.
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;size=20&amp;pause=1400&amp;color=10B981&amp;center=true&amp;vCenter=true&amp;width=620&amp;lines=Backend+%3A+Python+%C2%B7+FastAPI+%C2%B7+PostgreSQL;IA+appliqu%C3%A9e+%C2%B7+Assistants+%C2%B7+RAG;Automatisation+%C2%B7+Docker+%C2%B7+D%C3%A9ploiement" alt="Backend Python et FastAPI · IA appliquée et RAG · Automatisation et Docker" width="100%" />
+
+[![Portfolio](https://img.shields.io/badge/deusexi.vercel.app-070B0F?style=flat-square&logo=googlechrome&logoColor=10B981)](https://deusexi.vercel.app)
+[![Email](https://img.shields.io/badge/amoussasoultone0%40gmail.com-070B0F?style=flat-square&logo=gmail&logoColor=10B981)](mailto:amoussasoultone0@gmail.com)
+
+</div>
+
+---
+
+## 🚀 En ce moment
+
+- **Backend & IA appliquée** : je conçois des APIs et des systèmes IA/RAG, avec Python et FastAPI au cœur de ma stack.
+- **Freelance** : je développe et déploie des solutions adaptées aux besoins de mes clients.
+- **Exploration** : automatisation et entrepreneuriat tech, avec l’envie de transformer des idées en projets utiles.
+
+🎓 Titulaire d’une **Licence en Architecture Logicielle à ESGIS-Bénin**.
+
+---
+
+## ⭐ Projet phare : Pilote AI
+
+<table>
+<tr>
+<td>
+
+### Un assistant IA pour le pilotage de projets
+
+Réalisé seul lors de mon stage chez **Upsilon Consulting**, Pilote AI aide à exploiter les documents d’un projet pour en suivre l’avancement et préparer les décisions.
+
+- 📄 Analyse documentaire et synthèses pour les comités de pilotage.
+- ⚠️ Identification des risques et suivi des indicateurs clés.
+- 💬 Chat IA pour interroger les informations du projet.
+- 🔒 Anonymisation des documents avant leur envoi au modèle.
+- 🐳 Backend FastAPI, interface React et configuration de déploiement Docker / Caddy.
+
+**Stack :** Python · FastAPI · React · Llama via Groq · Docker
+
+**État :** prototype fonctionnel exécuté en local.
+
+[Explorer le code →](https://github.com/Soultone-hub/agent-ai-pmo) · [Configuration de déploiement →](https://github.com/Soultone-hub/agent-ia-pmo-deploy) · [Étude de cas →](https://deusexi.vercel.app/projets/pilote-ai)
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🧰 Ma stack
 
 <p align="center">
-  <a href="https://deusexi.vercel.app"><strong>Portfolio ↗</strong></a>
-  &nbsp; · &nbsp;
-  <a href="mailto:amoussasoultone0@gmail.com"><strong>Me contacter ↗</strong></a>
+  <strong>Backend, données & déploiement</strong><br/><br/>
+  <img src="https://skillicons.dev/icons?i=python,fastapi,django,postgres,sqlite,docker&amp;perline=6" alt="Python, FastAPI, Django, PostgreSQL, SQLite et Docker" /><br/><br/>
+  <strong>Interfaces & applications web</strong><br/><br/>
+  <img src="https://skillicons.dev/icons?i=react,ts,nextjs,tailwind,vite,supabase&amp;perline=6" alt="React, TypeScript, Next.js, Tailwind CSS, Vite et Supabase" />
 </p>
 
-## $ whoami
+<p align="center"><sub>Également dans mes projets : Django REST Framework · RAG · Llama / Groq · Docker Compose · Caddy</sub></p>
 
-Je suis **AMOUSSA Soultone**, alias **Deusexi**, technicien en conception logicielle basé au **Bénin** et diplômé d’une **Licence en Architecture Logicielle à ESGIS-Bénin**.
+---
 
-Je développe des **APIs backend**, des **systèmes IA/RAG** et des outils d’**automatisation**. Mon objectif : transformer des idées techniques complexes en outils concrets et utiles.
+## 🛠️ Autres projets
 
-```text
-deusexi@benin:~$ cat focus.txt
-
-> Backend         APIs, données et intégrations
-> IA appliquée    Assistants, analyse documentaire et RAG
-> Automatisation Outils CLI et workflows
-```
-
-## $ cat stack.md
-
-| Domaine | Outils |
-| :--- | :--- |
-| Backend | Python · FastAPI · Django · Django REST Framework |
-| Données | PostgreSQL · SQLite · Supabase |
-| IA | RAG · Llama · Groq |
-| Interfaces | React · TypeScript · Next.js · Tailwind CSS |
-| Déploiement | Docker · Docker Compose · Caddy |
-
-## $ ls projets/
-
-### [Pilote AI — Agent IA PMO](https://github.com/Soultone-hub/agent-ai-pmo)
-
-Assistant de pilotage de projets réalisé seul chez **Upsilon Consulting** : analyse documentaire, identification des risques, synthèses COPIL, KPI et chat IA. Les documents sont anonymisés avant l’envoi au modèle. **Prototype fonctionnel exécuté en local.**
-
-`FastAPI` · `React` · `Llama / Groq` · `Docker`
-
-| Projet | Ce qu’il fait | Stack |
+| Projet | En bref | Technologies |
 | :--- | :--- | :--- |
-| [GymHack ↗](https://gymhack.pages.dev/) | PWA de fitness : exercices animés, favoris et séances personnalisées. | React · Supabase · Cloudflare Workers |
-| [LogAnalyzer Pro ↗](https://github.com/Soultone-hub/loganalyzer) | CLI de supervision de logs : filtrage, statistiques et rapports JSON. | Python · CLI |
-| [Food Finder API ↗](https://github.com/Soultone-hub/Food_Finder_API) | API de découverte de restaurants avec authentification et profils vendeurs. | Django · DRF · SQLite |
+| 💪 [GymHack](https://github.com/Soultone-hub/GymHack) · [Essayer ↗](https://gymhack.pages.dev/) | Une PWA de fitness avec exercices animés, favoris et séances personnalisées. | React · Supabase · Cloudflare Workers |
+| 📊 [LogAnalyzer Pro](https://github.com/Soultone-hub/loganalyzer) | Un outil CLI pour filtrer les logs, produire des statistiques et générer des rapports JSON. | Python |
+| 🍽️ [Food Finder API](https://github.com/Soultone-hub/Food_Finder_API) | Une API de découverte de restaurants, avec authentification et profils vendeurs. | Django · DRF · SQLite |
+| 🛍️ [Sunem](https://github.com/Soultone-hub/Sunem) | Une boutique en ligne dédiée au pagne africain. | Laravel · PHP · Vite |
 
-[Explorer mes autres dépôts →](https://github.com/Soultone-hub?tab=repositories)
+[Voir tous mes dépôts →](https://github.com/Soultone-hub?tab=repositories)
 
-## $ ssh collaboration@deusexi
+---
 
-Une API à construire, un assistant IA à concevoir ou un processus à automatiser ? **Discutons de ton projet.**
+## 📈 Activité GitHub
 
-**[deusexi.vercel.app](https://deusexi.vercel.app)** · **[amoussasoultone0@gmail.com](mailto:amoussasoultone0@gmail.com)**
+<p align="center">
+  <a href="https://github.com/Soultone-hub?tab=overview">
+    <img src="https://streak-stats.demolab.com/?user=Soultone-hub&amp;hide_border=true&amp;background=070B0F&amp;ring=10B981&amp;fire=6EE7B7&amp;currStreakLabel=6EE7B7&amp;sideLabels=94A3B8&amp;dates=94A3B8&amp;sideNums=F1F5F9&amp;currStreakNum=F1F5F9&amp;locale=fr" alt="Contributions GitHub de Soultone-hub : total et séries de contributions" width="495" />
+  </a>
+</p>
 
-<sub>Hors terminal : jeux vidéo, cuisine, bricolage et lecture.</sub>
+---
+
+<div align="center">
+
+### 📬 Un projet à construire ensemble ?
+
+**Disponible pour des missions freelance et des collaborations.**
+
+[Mon portfolio](https://deusexi.vercel.app) · [M’écrire](mailto:amoussasoultone0@gmail.com)
+
+<sub>Hors terminal : jeux vidéo 🎮 · cuisine 🍳 · bricolage 🔧 · lecture 📚</sub>
+
+</div>
