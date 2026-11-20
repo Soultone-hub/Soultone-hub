@@ -2,9 +2,9 @@
 
 <img src="assets/deusexi-banner.svg" alt="DEUSEXI — AMOUSSA Soultone · Backend, IA/RAG et automatisation · Bénin" width="100%" />
 
-# Soultone, alias Deusexi 👋
+# Soultone, alias Deusexi <img src="assets/icons/hand.svg" width="28" height="28" alt="" />
 
-**Technicien en conception logicielle** · Bénin 🇧🇯
+**Technicien en conception logicielle** · <img src="assets/icons/map-pin.svg" width="16" height="16" alt="" /> Bénin
 
 Je construis des APIs, des assistants IA et des outils qui automatisent le travail répétitif.<br/>
 J’aime partir d’un besoin concret et en faire un outil qu’on peut utiliser.
@@ -18,17 +18,17 @@ J’aime partir d’un besoin concret et en faire un outil qu’on peut utiliser
 
 ---
 
-## 🚀 En ce moment
+## <img src="assets/icons/rocket.svg" width="24" height="24" alt="" /> En ce moment
 
 - **Backend & IA appliquée** : je conçois des APIs et des systèmes IA/RAG, avec Python et FastAPI au cœur de ma stack.
 - **Freelance** : je développe et déploie des solutions adaptées aux besoins de mes clients.
 - **Exploration** : automatisation et entrepreneuriat tech, avec l’envie de transformer des idées en projets utiles.
 
-🎓 Titulaire d’une **Licence en Architecture Logicielle à ESGIS-Bénin**.
+<img src="assets/icons/graduation-cap.svg" width="18" height="18" alt="" /> Titulaire d’une **Licence en Architecture Logicielle à ESGIS-Bénin**.
 
 ---
 
-## ⭐ Projet phare : Pilote AI
+## <img src="assets/icons/star.svg" width="24" height="24" alt="" /> Projet phare : Pilote AI
 
 <table>
 <tr>
@@ -38,11 +38,11 @@ J’aime partir d’un besoin concret et en faire un outil qu’on peut utiliser
 
 Réalisé seul lors de mon stage chez **Upsilon Consulting**, Pilote AI aide à exploiter les documents d’un projet pour en suivre l’avancement et préparer les décisions.
 
-- 📄 Analyse documentaire et synthèses pour les comités de pilotage.
-- ⚠️ Identification des risques et suivi des indicateurs clés.
-- 💬 Chat IA pour interroger les informations du projet.
-- 🔒 Anonymisation des documents avant leur envoi au modèle.
-- 🐳 Backend FastAPI, interface React et configuration de déploiement Docker / Caddy.
+- <img src="assets/icons/file-text.svg" width="18" height="18" alt="" /> Analyse documentaire et synthèses pour les comités de pilotage.
+- <img src="assets/icons/triangle-alert.svg" width="18" height="18" alt="" /> Identification des risques et suivi des indicateurs clés.
+- <img src="assets/icons/messages-square.svg" width="18" height="18" alt="" /> Chat IA pour interroger les informations du projet.
+- <img src="assets/icons/shield-check.svg" width="18" height="18" alt="" /> Anonymisation des documents avant leur envoi au modèle.
+- <img src="assets/icons/container.svg" width="18" height="18" alt="" /> Backend FastAPI, interface React et configuration de déploiement Docker / Caddy.
 
 **Stack :** Python · FastAPI · React · Llama via Groq · Docker
 
@@ -56,7 +56,7 @@ Réalisé seul lors de mon stage chez **Upsilon Consulting**, Pilote AI aide à 
 
 ---
 
-## 🧰 Ma stack
+## <img src="assets/icons/layers.svg" width="24" height="24" alt="" /> Ma stack
 
 <p align="center">
   <strong>Backend, données & déploiement</strong><br/><br/>
@@ -69,20 +69,20 @@ Réalisé seul lors de mon stage chez **Upsilon Consulting**, Pilote AI aide à 
 
 ---
 
-## 🛠️ Autres projets
+## <img src="assets/icons/code-xml.svg" width="24" height="24" alt="" /> Autres projets
 
 | Projet | En bref | Technologies |
 | :--- | :--- | :--- |
-| 💪 [GymHack](https://github.com/Soultone-hub/GymHack) · [Essayer ↗](https://gymhack.pages.dev/) | Une PWA de fitness avec exercices animés, favoris et séances personnalisées. | React · Supabase · Cloudflare Workers |
-| 📊 [LogAnalyzer Pro](https://github.com/Soultone-hub/loganalyzer) | Un outil CLI pour filtrer les logs, produire des statistiques et générer des rapports JSON. | Python |
-| 🍽️ [Food Finder API](https://github.com/Soultone-hub/Food_Finder_API) | Une API de découverte de restaurants, avec authentification et profils vendeurs. | Django · DRF · SQLite |
-| 🛍️ [Sunem](https://github.com/Soultone-hub/Sunem) | Une boutique en ligne dédiée au pagne africain. | Laravel · PHP · Vite |
+| <img src="assets/icons/dumbbell.svg" width="18" height="18" alt="" /> [GymHack](https://github.com/Soultone-hub/GymHack) · [Essayer ↗](https://gymhack.pages.dev/) | Une PWA de fitness avec exercices animés, favoris et séances personnalisées. | React · Supabase · Cloudflare Workers |
+| <img src="assets/icons/logs.svg" width="18" height="18" alt="" /> [LogAnalyzer Pro](https://github.com/Soultone-hub/loganalyzer) | Un outil CLI pour filtrer les logs, produire des statistiques et générer des rapports JSON. | Python |
+| <img src="assets/icons/utensils.svg" width="18" height="18" alt="" /> [Food Finder API](https://github.com/Soultone-hub/Food_Finder_API) | Une API de découverte de restaurants, avec authentification et profils vendeurs. | Django · DRF · SQLite |
+| <img src="assets/icons/shopping-bag.svg" width="18" height="18" alt="" /> [Sunem](https://github.com/Soultone-hub/Sunem) | Une boutique en ligne dédiée au pagne africain. | Laravel · PHP · Vite |
 
 [Voir tous mes dépôts →](https://github.com/Soultone-hub?tab=repositories)
 
 ---
 
-## 📈 Activité GitHub
+## <img src="assets/icons/chart-no-axes-combined.svg" width="24" height="24" alt="" /> Activité GitHub
 
 <p align="center">
   <a href="https://github.com/Soultone-hub?tab=overview">
@@ -94,12 +94,12 @@ Réalisé seul lors de mon stage chez **Upsilon Consulting**, Pilote AI aide à 
 
 <div align="center">
 
-### 📬 Un projet à construire ensemble ?
+### <img src="assets/icons/mail.svg" width="22" height="22" alt="" /> Un projet à construire ensemble ?
 
 **Disponible pour des missions freelance et des collaborations.**
 
 [Mon portfolio](https://deusexi.vercel.app) · [M’écrire](mailto:amoussasoultone0@gmail.com)
 
-<sub>Hors terminal : jeux vidéo 🎮 · cuisine 🍳 · bricolage 🔧 · lecture 📚</sub>
+<sub>Hors terminal : <img src="assets/icons/gamepad-2.svg" width="16" height="16" alt="" /> jeux vidéo · <img src="assets/icons/chef-hat.svg" width="16" height="16" alt="" /> cuisine · <img src="assets/icons/wrench.svg" width="16" height="16" alt="" /> bricolage · <img src="assets/icons/book-open.svg" width="16" height="16" alt="" /> lecture</sub>
 
 </div>
