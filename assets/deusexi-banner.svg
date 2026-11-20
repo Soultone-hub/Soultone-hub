@@ -1,7 +1,32 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-labelledby="title description">
   <title id="title">DEUSEXI — AMOUSSA Soultone</title>
   <desc id="description">Technicien en conception logicielle au Bénin. Backend, systèmes IA/RAG et automatisation.</desc>
+  <style>
+    .eye-lid, .eye-aperture {
+      transform-box: fill-box;
+      transform-origin: center;
+      animation: deusexi-blink 5.6s ease-in-out infinite;
+    }
+    @keyframes deusexi-blink {
+      0%, 18%, 24%, 27%, 33%, 100% { transform: scaleY(1); }
+      20%, 21%, 29%, 30% { transform: scaleY(.04); }
+    }
+    .eye-closed-line {
+      opacity: 0;
+      animation: deusexi-closed-line 5.6s ease-in-out infinite;
+    }
+    @keyframes deusexi-closed-line {
+      0%, 18%, 24%, 27%, 33%, 100% { opacity: 0; }
+      20%, 21%, 29%, 30% { opacity: 1; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .eye-lid, .eye-aperture, .eye-closed-line { animation: none; }
+    }
+  </style>
   <defs>
+    <clipPath id="deusexi-eye-aperture" clipPathUnits="userSpaceOnUse">
+      <path class="eye-aperture" d="M0 74L36 38H108L144 74L108 110H36Z"/>
+    </clipPath>
     <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
       <path d="M40 0H0V40" fill="none" stroke="#1c2630" stroke-width="1"/>
     </pattern>
@@ -18,16 +43,19 @@
     <text x="64" y="49" font-size="17" fill="#6ee7b7">deusexi@benin:~</text>
     <text x="1216" y="49" font-size="14" text-anchor="end" fill="#94a3b8">CODE / BUILD / EXPLORE</text>
     <path d="M64 71H1216" stroke="#1c2630"/>
-    <svg x="4" y="76" width="740" height="200" xmlns="http://www.w3.org/2000/svg" viewBox="-76 -38 830 224" role="img" aria-labelledby="title description"><title id="title">DEUSEXI</title><desc id="description">Logo DEUSEXI : œil angulaire et nom de marque en tracés vectoriels.</desc><path d="M0 74L36 38H108L144 74L108 110H36Z" fill="none" stroke="#F1F5F9" stroke-width="8" stroke-linejoin="miter"/><circle cx="72" cy="74" r="24" fill="none" stroke="#F1F5F9" stroke-width="7"/><circle cx="72" cy="74" r="9" fill="#10B981"/><g transform="translate(36 0)"><path d="M170.5 110V37H192.2Q199.6 37 205.05 39.85Q210.5 42.7 213.5 47.8Q216.5 52.9 216.5 59.8V87.1Q216.5 94 213.5 99.15Q210.5 104.3 205.05 107.15Q199.6 110 192.2 110ZM183 98.8H192.2Q197.6 98.8 200.8 95.65Q204 92.5 204 87.1V59.8Q204 54.5 200.8 51.35Q197.6 48.2 192.2 48.2H183Z M243.8 110V37H287.6V48H256.1V67H284.1V77.6H256.1V99H287.6V110Z M337 111Q326.3 111 320.25 105.15Q314.2 99.3 314.2 89.2V37H326.8V89.1Q326.8 94.3 329.4 97.2Q332 100.1 337 100.1Q341.9 100.1 344.55 97.2Q347.2 94.3 347.2 89.1V37H359.8V89.2Q359.8 99.3 353.8 105.15Q347.8 111 337 111Z M409.3 111Q401.9 111 396.35 108.4Q390.8 105.8 387.75 100.95Q384.7 96.1 384.7 89.4H397Q397 94.3 400.35 97.2Q403.7 100.1 409.3 100.1Q414.7 100.1 417.85 97.25Q421 94.4 421 89.6Q421 86 418.95 83.25Q416.9 80.5 413.1 79.5L403.3 77Q395.4 75 390.8 69.5Q386.2 64 386.2 56.4Q386.2 47.1 392.3 41.55Q398.4 36 408.6 36Q415.5 36 420.65 38.5Q425.8 41 428.6 45.55Q431.4 50.1 431.4 56.2H419.2Q419.2 52 416.3 49.4Q413.4 46.8 408.6 46.8Q403.9 46.8 401.15 49.35Q398.4 51.9 398.4 56Q398.4 59.4 400.35 61.6Q402.3 63.8 405.8 64.8L415.9 67.3Q424 69.3 428.65 75.3Q433.3 81.3 433.3 89.6Q433.3 96.1 430.35 100.9Q427.4 105.7 422 108.35Q416.6 111 409.3 111Z M459.8 110V37H503.6V48H472.1V67H500.1V77.6H472.1V99H503.6V110Z M525.8 110 546 72.6 527 37H541L550.2 55.3Q551.2 57.3 552 59.15Q552.8 61 553.2 62Q553.5 61 554.3 59.15Q555.1 57.3 556.1 55.3L565.4 37H579L560 72.3L580.2 110H566.2L555.9 89.8Q554.9 87.9 554.05 85.95Q553.2 84 552.8 82.9Q552.4 84 551.6 85.9Q550.8 87.8 549.8 89.8L539.4 110Z M604 110V98.7H618.7V48.3H604V37H646V48.3H631.3V98.7H646V110Z" fill="#F1F5F9"/></g></svg>
+    <svg x="4" y="76" width="740" height="200" xmlns="http://www.w3.org/2000/svg" viewBox="-76 -38 830 224" role="img" aria-labelledby="logo-title logo-description"><title id="logo-title">DEUSEXI</title><desc id="logo-description">Logo DEUSEXI : œil angulaire et nom de marque en tracés vectoriels.</desc><path class="eye-lid" d="M0 74L36 38H108L144 74L108 110H36Z" fill="none" stroke="#F1F5F9" stroke-width="8" stroke-linejoin="miter"/><path class="eye-closed-line" d="M0 74H144" fill="none" stroke="#F1F5F9" stroke-width="8"/><g clip-path="url(#deusexi-eye-aperture)"><circle cx="72" cy="74" r="24" fill="none" stroke="#F1F5F9" stroke-width="7"/><circle cx="72" cy="74" r="9" fill="#10B981"/></g><g transform="translate(36 0)"><path d="M170.5 110V37H192.2Q199.6 37 205.05 39.85Q210.5 42.7 213.5 47.8Q216.5 52.9 216.5 59.8V87.1Q216.5 94 213.5 99.15Q210.5 104.3 205.05 107.15Q199.6 110 192.2 110ZM183 98.8H192.2Q197.6 98.8 200.8 95.65Q204 92.5 204 87.1V59.8Q204 54.5 200.8 51.35Q197.6 48.2 192.2 48.2H183Z M243.8 110V37H287.6V48H256.1V67H284.1V77.6H256.1V99H287.6V110Z M337 111Q326.3 111 320.25 105.15Q314.2 99.3 314.2 89.2V37H326.8V89.1Q326.8 94.3 329.4 97.2Q332 100.1 337 100.1Q341.9 100.1 344.55 97.2Q347.2 94.3 347.2 89.1V37H359.8V89.2Q359.8 99.3 353.8 105.15Q347.8 111 337 111Z M409.3 111Q401.9 111 396.35 108.4Q390.8 105.8 387.75 100.95Q384.7 96.1 384.7 89.4H397Q397 94.3 400.35 97.2Q403.7 100.1 409.3 100.1Q414.7 100.1 417.85 97.25Q421 94.4 421 89.6Q421 86 418.95 83.25Q416.9 80.5 413.1 79.5L403.3 77Q395.4 75 390.8 69.5Q386.2 64 386.2 56.4Q386.2 47.1 392.3 41.55Q398.4 36 408.6 36Q415.5 36 420.65 38.5Q425.8 41 428.6 45.55Q431.4 50.1 431.4 56.2H419.2Q419.2 52 416.3 49.4Q413.4 46.8 408.6 46.8Q403.9 46.8 401.15 49.35Q398.4 51.9 398.4 56Q398.4 59.4 400.35 61.6Q402.3 63.8 405.8 64.8L415.9 67.3Q424 69.3 428.65 75.3Q433.3 81.3 433.3 89.6Q433.3 96.1 430.35 100.9Q427.4 105.7 422 108.35Q416.6 111 409.3 111Z M459.8 110V37H503.6V48H472.1V67H500.1V77.6H472.1V99H503.6V110Z M525.8 110 546 72.6 527 37H541L550.2 55.3Q551.2 57.3 552 59.15Q552.8 61 553.2 62Q553.5 61 554.3 59.15Q555.1 57.3 556.1 55.3L565.4 37H579L560 72.3L580.2 110H566.2L555.9 89.8Q554.9 87.9 554.05 85.95Q553.2 84 552.8 82.9Q552.4 84 551.6 85.9Q550.8 87.8 549.8 89.8L539.4 110Z M604 110V98.7H618.7V48.3H604V37H646V48.3H631.3V98.7H646V110Z" fill="#F1F5F9"/></g></svg>
 
     <text x="64" y="267" font-size="28" font-weight="700" fill="#f1f5f9">AMOUSSA Soultone</text>
     <text x="64" y="307" font-size="22" fill="#94a3b8">Technicien en conception logicielle</text>
     <text x="64" y="365" font-size="21" fill="#6ee7b7">Backend · IA / RAG · Automatisation</text>
   </g>
   <g transform="translate(954 122) scale(1.55)">
-    <path d="M0 74L36 38H108L144 74L108 110H36Z" fill="none" stroke="#10b981" stroke-width="2"/>
-    <circle cx="72" cy="74" r="24" fill="none" stroke="#10b981" stroke-width="2"/>
-    <circle cx="72" cy="74" r="9" fill="#10b981"/>
+    <path class="eye-lid" d="M0 74L36 38H108L144 74L108 110H36Z" fill="none" stroke="#10b981" stroke-width="2"/>
+    <path class="eye-closed-line" d="M0 74H144" fill="none" stroke="#10b981" stroke-width="2"/>
+    <g clip-path="url(#deusexi-eye-aperture)">
+      <circle cx="72" cy="74" r="24" fill="none" stroke="#10b981" stroke-width="2"/>
+      <circle cx="72" cy="74" r="9" fill="#10b981"/>
+    </g>
     <path d="M-20 74H-4M148 74H164M72 10V26M72 122V138" stroke="#6ee7b7" stroke-width="1"/>
   </g>
   <path d="M64 416H1216" stroke="#10b981" stroke-width="4"/>
